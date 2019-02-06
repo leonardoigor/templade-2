@@ -1,0 +1,45 @@
+*{margin: 0;padding: 0}
+/*class*/
+.flex-center
+{
+    display: flex;justify-content: center;flex-direction: column;text-align: center;align-items: center;
+}
+/*class*/
+
+.top
+{
+    background: #eeebec;
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+.container
+{
+    
+    align-items:center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo
+{
+    margin-left: 1.5em;
+}
+.menu
+{
+    display:flex;
+    justify-content: space-around;
+    padding: 17px 0 0;
+    width: 513px;
+    
+    
+}
+.menu a
+{
+    text-decoration: none;
+    margin-bottom: 40px;
+    margin-top: 40px
+}
